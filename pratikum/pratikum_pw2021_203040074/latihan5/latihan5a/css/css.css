@@ -1,0 +1,23 @@
+.card{
+    min-height: 250px;
+    margin-top: 30px;
+    
+}
+.card:hover{
+    border: 1px solid black !important;
+}
+.card-header{
+    min-height: 180px !important;
+}
+a{
+    color: black !important;
+}
+.image{
+    width:70%;
+    margin: 0 auto !important;
+}
+.detail{
+    margin: 0 auto;
+    text-align: center;
+}
+

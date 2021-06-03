@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* detail.php */
+.container {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0);
+    width: 420px;
+    height: 500px;
+    margin-top: 25px;
+    padding: 50px;
+}
+
+.gambar img {
+    border: 3px solid white;
+}
+
+.keterangan {
+    color: rgb(235, 235, 235);
+    font-size: 15px;
+}
+
+.keterangan :nth-child(1){
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tombol-kembali {
+    color: white;
+    padding: 7px 14px;
+    font-weight: 600;
+    transition: all .3s ease;
+    margin-top: 25px;
+    border: none;
+}
+
+.tombol-kembali a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+.tombol-kembali:hover {
+    transform: scale(0.9);
+}
+
+/* index.php */
+div ul li a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
