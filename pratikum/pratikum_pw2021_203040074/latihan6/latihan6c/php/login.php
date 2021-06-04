@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
                 $hash = hash('sha256', $row['id']);
                 setcookie('hash', $hash, time() + 60 * 60 * 24);
             }
-        header("Location: ../indeks.php");
+        header("Location: ../index.php");
         die;
         }
     }

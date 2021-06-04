@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
             header("Location: admin.php");
             die;
         }
-        header("Location: ../indeks.php");
+        header("Location: ../index.php");
         die;
         }
     }
